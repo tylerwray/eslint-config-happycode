@@ -5,13 +5,6 @@ module.exports = {
     jest: true
   },
   extends: ["eslint:recommended"],
-  parserOptions: {
-    ecmaVersion: 8,
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true
-    },
-    sourceType: "module"
-  },
   overrides: [
     {
       files: "*.test.js",
